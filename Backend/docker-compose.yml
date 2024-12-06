@@ -17,3 +17,8 @@ services:
     container_name: chat-db
     ports:
       - "3306:3306"
+  memcached:
+    container_name: solsol-memcached
+    image: memcached:alpine
+    ports:
+      - 11211:11211

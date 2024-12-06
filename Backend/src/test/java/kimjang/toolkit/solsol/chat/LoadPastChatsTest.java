@@ -1,8 +1,8 @@
 package kimjang.toolkit.solsol.chat;
 
-import kimjang.toolkit.solsol.message.dto.PastChatsDto;
-import kimjang.toolkit.solsol.message.dto.ReqPastChatsDto;
-import kimjang.toolkit.solsol.message.service.ChatService;
+import kimjang.toolkit.solsol.domain.message.dto.PastChatsDto;
+import kimjang.toolkit.solsol.domain.message.dto.ReqPastChatsDto;
+import kimjang.toolkit.solsol.domain.message.service.ChatService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

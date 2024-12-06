@@ -1,7 +1,7 @@
 package kimjang.toolkit.solsol.room;
 
-import kimjang.toolkit.solsol.room.dto.ChatRoomDto;
-import kimjang.toolkit.solsol.room.service.ChatRoomService;
+import kimjang.toolkit.solsol.domain.room.dto.ChatRoomDto;
+import kimjang.toolkit.solsol.domain.room.service.ChatRoomService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

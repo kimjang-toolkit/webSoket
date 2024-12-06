@@ -2,10 +2,10 @@ package kimjang.toolkit.solsol.chat;
 
 
 import kimjang.toolkit.solsol.SolsolApplication;
-import kimjang.toolkit.solsol.user.dto.UserDto;
-import kimjang.toolkit.solsol.message.ChatMessage;
-import kimjang.toolkit.solsol.message.dto.SendChatMessageDto;
-import kimjang.toolkit.solsol.message.service.ChatService;
+import kimjang.toolkit.solsol.domain.user.dto.UserDto;
+import kimjang.toolkit.solsol.domain.message.ChatMessage;
+import kimjang.toolkit.solsol.domain.message.dto.SendChatMessageDto;
+import kimjang.toolkit.solsol.domain.message.service.ChatService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;

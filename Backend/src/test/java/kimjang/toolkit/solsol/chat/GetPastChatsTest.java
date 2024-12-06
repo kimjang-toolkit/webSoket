@@ -1,16 +1,14 @@
 package kimjang.toolkit.solsol.chat;
 
 
-import kimjang.toolkit.solsol.message.dto.PastChatsDto;
-import kimjang.toolkit.solsol.message.dto.ReqPastChatsDto;
-import kimjang.toolkit.solsol.message.service.ChatService;
+import kimjang.toolkit.solsol.domain.message.dto.PastChatsDto;
+import kimjang.toolkit.solsol.domain.message.dto.ReqPastChatsDto;
+import kimjang.toolkit.solsol.domain.message.service.ChatService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.PageRequest;
-
-import java.time.LocalDateTime;
 
 @SpringBootTest
 public class GetPastChatsTest {

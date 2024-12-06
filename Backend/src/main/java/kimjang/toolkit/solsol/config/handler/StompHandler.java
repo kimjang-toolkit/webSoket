@@ -1,7 +1,7 @@
 package kimjang.toolkit.solsol.config.handler;
 
 
-import kimjang.toolkit.solsol.room.service.ChatRoomSubscribeService;
+import kimjang.toolkit.solsol.domain.room.service.ChatRoomSubscribeService;
 import kimjang.toolkit.solsol.config.container.SocketSessionContainer;
 import kimjang.toolkit.solsol.config.jwt.SecurityConstants;
 import kimjang.toolkit.solsol.config.provider.JwtAuthenticationProvider;
@@ -9,12 +9,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.MessageChannel;
-import org.springframework.messaging.simp.stomp.StompCommand;
 import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
 import org.springframework.messaging.support.ChannelInterceptor;
-import org.springframework.security.authentication.BadCredentialsException;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 

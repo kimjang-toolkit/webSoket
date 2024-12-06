@@ -1,7 +1,6 @@
 package kimjang.toolkit.solsol.user;
 
-import kimjang.toolkit.solsol.user.service.UserService;
-import lombok.RequiredArgsConstructor;
+import kimjang.toolkit.solsol.domain.user.service.UserService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,13 +1,10 @@
 package kimjang.toolkit.solsol.room;
 
-import kimjang.toolkit.solsol.room.dto.InviteChatRoomDto;
-import kimjang.toolkit.solsol.user.dto.UserDto;
-import kimjang.toolkit.solsol.room.entity.ChatRoom;
-import kimjang.toolkit.solsol.room.entity.ChatRoomCustomerRelationship;
-import kimjang.toolkit.solsol.room.dto.CreateChatRoomDto;
-import kimjang.toolkit.solsol.room.repository.ChatRoomCustormerRelationshipRepository;
-import kimjang.toolkit.solsol.room.repository.ChatRoomRepository;
-import kimjang.toolkit.solsol.room.service.ChatRoomService;
+import kimjang.toolkit.solsol.domain.room.dto.InviteChatRoomDto;
+import kimjang.toolkit.solsol.domain.room.dto.CreateChatRoomDto;
+import kimjang.toolkit.solsol.domain.room.repository.ChatRoomCustormerRelationshipRepository;
+import kimjang.toolkit.solsol.domain.room.repository.ChatRoomRepository;
+import kimjang.toolkit.solsol.domain.room.service.ChatRoomService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,8 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 
